@@ -1,12 +1,64 @@
 # Data Science Platform
 
-# Government of Canada Resources
+**A starter kit for a data science platform.**
 
-https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32592
+Includes links and descriptions for popular tools, services and resources every
+world-class data organization needs in order to manage their data and make data
+driven apps and services.
 
-https://govfresh.com/2018/12/canada-adopts-open-source-mandate-for-government-software
+Establishing good data practices early in the organizational transformation is
+key. The FAIR data principles are an useful guide to follow.
 
-## Open Source Solutions
+## FAIR Data
+
+![FAIR](./img/fair.jpg)
+
+FAIR data are data which meet principles of findability, accessibility,
+interoperability, and re-usability.
+
+- [Wikipedia](https://en.wikipedia.org/wiki/FAIR_data)
+- [Go FAIR](https://www.go-fair.org/fair-principles/)
+- [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples)
+
+### FAIR Data Management
+
+#### Frictionless Data
+
+![Frictionless](./img/frictionless.svg)
+
+*The progressive data toolkit.*
+
+Frictionless Data is a progressive, incrementally adoptable open-source toolkit
+that brings simplicity and gracefulness to the data experience - whether you're
+wrangling a CSV or engineering complex pipelines with gigabytes.
+
+- [Homepage](https://frictionlessdata.io/) 
+- [Github](https://github.com/frictionlessdata) 
+  - [Python Module](https://github.com/frictionlessdata/frictionless-py)
+  - [How to use.](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
+- [Lecture on Frictionless Data](https://www.youtube.com/watch?v=EFQmudQP4io)
+
+#### CKAN
+
+![CKAN](./img/ckan.png)
+
+- [CKAN and The Government of Canada](https://ckan.org/team/government-of-canada/)
+- [Demo of CKAN](https://demo.ckan.org/)
+- [Install CKAN with Docker Compose](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html)
+- [How to use Frictionless Data with CKAN](https://frictionlessdata.io/how-to/how-to-use-data-packages-with-ckan/)
+
+
+## Graphical Interfaces for ML Apps
+
+### Streamlit
+
+The fastest way to build and share data apps. Turn data scripts into shareable
+web apps in minutes. All in Python. All for free. No front-end experience
+required.
+
+- [Homepage](https://www.streamlit.io/)
+
+## Development Environments
 
 ### Jupyter
 
@@ -15,6 +67,10 @@ https://hub.docker.com/r/cschranz/gpu-jupyter
 ### Jupyter Notebooks from StatCan
 
 https://github.com/govcloud/jupyter-notebooks
+
+### Datasette
+
+https://github.com/simonw/datasette
 
 ### Ansible
 
@@ -29,6 +85,7 @@ install and configure AI tools and platforms in production evironments on Edge
 and IoT devices as easily as local test environments.
 
 https://github.com/kf5i/k3ai
+https://docs.k3ai.in/what-we-are-trying-to-solve-a.k.a-our-goals
 
 ### Jupyter
 
@@ -141,4 +198,82 @@ out access controls. Start shipping apps that move your business forward.
 
 ### No Code Solutions
 
+https://capiche.com/e/software-lockin
 https://medium.com/@rrhoover/the-rise-of-no-code-e733d7c0944d
+https://lobe.ai/
+https://www.freshpaint.io/product/visual-editor
+
+#### spaCy
+
+spaCy is designed to help you do real work — to build real products, or gather
+real insights. The library respects your time, and tries to avoid wasting it.
+It's easy to install, and its API is simple and productive. We like to think of
+spaCy as the Ruby on Rails of Natural Language Processing. 
+
+https://spacy.io/
+
+https://prodi.gy
+
+### Luna Lang / Enso
+
+https://github.com/enso-org/enso
+
+https://luna-lang.org/
+
+
+### CKAN
+
+https://github.com/keitaroinc/docker-ckan
+
+
+### Text Cleaning
+
+https://github.com/jfilter/clean-text
+https://github.com/jbesomi/texthero
+https://github.com/chartbeat-labs/textacy
+
+
+
+# Open Knowledge Foundation
+
+
+## Useful Links
+
+- [Open Knowledge Foundation Canada](https://ca.okfn.org/)
+
+## Packages and Tools
+
+
+### Good Tables
+
+#### Homepage
+
+- [Good Tables](https://goodtables.io/)
+
+### Data Package Creator
+
+#### Homepage
+
+- [Frictionless Data Creator](https://create.frictionlessdata.io/) 
+
+#### Description
+
+Tool for making metadata for datasets?
+
+
+
+# Decision Process Automation
+
+http://learn-dmn-in-15-minutes.com/
+https://en.wikipedia.org/wiki/Decision_Model_and_Notation
+https://en.wikipedia.org/wiki/Predictive_Model_Markup_Language
+https://www.slideshare.net/MarlonDumas/ai-for-business-process-management?from_action=save
+
+https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager
+
+http://kie.org/
+https://kogito.kie.org/
+
+https://www.research.ibm.com/artificial-intelligence/trusted-ai/
+
+https://www.odoo.com/
