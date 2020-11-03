@@ -24,7 +24,7 @@ interoperability, and re-usability.
 
 #### Frictionless Data
 
-![Frictionless](./img/frictionless.svg)
+![Frictionless](./img/frictionless.png)
 
 *The progressive data toolkit.*
 
@@ -41,6 +41,12 @@ wrangling a CSV or engineering complex pipelines with gigabytes.
 #### CKAN
 
 ![CKAN](./img/ckan.png)
+
+
+*CKAN, the world’s leading Open Source data portal platform.*
+
+CKAN is a powerful data management system that makes data accessible – by
+providing tools to streamline publishing, sharing, finding and using data.
 
 - [CKAN and The Government of Canada](https://ckan.org/team/government-of-canada/)
 - [Demo of CKAN](https://demo.ckan.org/)
