@@ -205,8 +205,11 @@ out access controls. Start shipping apps that move your business forward.
 ### No Code Solutions
 
 https://capiche.com/e/software-lockin
+
 https://medium.com/@rrhoover/the-rise-of-no-code-e733d7c0944d
-https://lobe.ai/
+
+https://lobe.ai/  (Currently only supports image classification)
+
 https://www.freshpaint.io/product/visual-editor
 
 #### spaCy
@@ -220,7 +223,18 @@ https://spacy.io/
 
 https://prodi.gy
 
+### doccano
+
+An open source alternative to Prodigy
+
+https://doccano.herokuapp.com/
+
+
 ### Luna Lang / Enso
+
+An interesting hybrid code/visual programming language. The development team switched from
+Luna to Enso. Enso is currently pre-1.0, but Luna is in beta. There is no more development on luna, 
+but you can try it to see how Enso would look in the future. 
 
 https://github.com/enso-org/enso
 
