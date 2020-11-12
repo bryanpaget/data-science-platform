@@ -9,7 +9,7 @@ driven apps and services.
 Establishing good data practices early in the organizational transformation is
 key. The FAIR data principles are an useful guide to follow.
 
-## FAIR Data
+## FAIR Data and Data Management
 
 ![FAIR](./img/fair.jpg)
 
@@ -37,11 +37,15 @@ wrangling a CSV or engineering complex pipelines with gigabytes.
   - [Python Module](https://github.com/frictionlessdata/frictionless-py)
   - [How to use.](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
 - [Lecture on Frictionless Data](https://www.youtube.com/watch?v=EFQmudQP4io)
+- [Lecture Slides](https://www.google.com/url?q=http://bit.ly/fdATO&sa=D&ust=1604076235975000&usg=AOvVaw3f7NIudeVlmUsxyZQKl9xv)
+
+- [Good Tables](https://goodtables.io/)
+- [Frictionless Data Creator](https://create.frictionlessdata.io/) 
+https://frictionlessdata.io/guide/
 
 #### CKAN
 
 ![CKAN](./img/ckan.png)
-
 
 *CKAN, the world’s leading Open Source data portal platform.*
 
@@ -52,7 +56,11 @@ providing tools to streamline publishing, sharing, finding and using data.
 - [Demo of CKAN](https://demo.ckan.org/)
 - [Install CKAN with Docker Compose](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html)
 - [How to use Frictionless Data with CKAN](https://frictionlessdata.io/how-to/how-to-use-data-packages-with-ckan/)
-
+- [Docker Container](https://github.com/keitaroinc/docker-ckan)
+- [CKAN and Government of Canada](https://ckan.org/team/government-of-canada/)
+- [CKAN Government of Canada Extension on Github](https://github.com/open-data/ckanext-canada)
+- [CKAN API Documentation](https://docs.ckan.org/en/2.9/api/)
+- [CKAN Documentation](https://docs.ckan.org/en/latest/contents.html#)
 
 ## Graphical Interfaces for ML Apps
 
@@ -64,48 +72,73 @@ required.
 
 - [Homepage](https://www.streamlit.io/)
 
-## Development Environments
+## Data Science and ML Development Environments
 
 ### Jupyter
 
-https://hub.docker.com/r/cschranz/gpu-jupyter
+- [GPU Powered Docker Containers](https://hub.docker.com/r/cschranz/gpu-jupyter)
+- [Jupyter Notebooks from StatCan](https://github.com/govcloud/jupyter-notebooks)
+- [Docker Containers for Jupyter Notebooks](https://github.com/jupyter/docker-stacks)
 
-### Jupyter Notebooks from StatCan
+### nteract
 
-https://github.com/govcloud/jupyter-notebooks
+![nteract](./img/nteract.png)
+
+*Interactive computing experiences that allow people to collaborate with ease.*
+
+The nteract ecosystem provides a wide variety of notebook-based applications for
+your scenario. Whether you want to edit notebooks in a desktop app or in your
+favorite editor, nteract provides you the tools you need to leverage the full
+power of interactive notebooks.
+
+- [Homepage](https://nteract.io/)
+- [https://github.com/nteract/nteract](Github)
 
 ### Datasette
 
 https://github.com/simonw/datasette
 
+## DevOps
+
+DevOps is a set of practices that combines software development (Dev) and IT
+operations (Ops). It aims to shorten the systems development life cycle and
+provide continuous delivery with high software quality. DevOps is complementary
+with Agile software development; several DevOps aspects came from Agile
+methodology.
+
 ### Ansible
 
-https://github.com/govcloud/ansible-role-data-science
-https://github.com/remigius42-ai/ansible-role-data_science_base
-https://github.com/riethmayer/data-science-toolkit
+![Ansible](./img/ansible.png)
+
+Ansible is an open-source software provisioning, configuration management, and
+application-deployment tool enabling infrastructure as code. It runs on many
+Unix-like systems, and can configure both Unix-like systems as well as Microsoft
+Windows. It includes its own declarative language to describe system
+configuration.
+
+- [Ansible Role for Data Science](https://github.com/govcloud/ansible-role-data-science)
+- [Ansible Role for Data Science](https://github.com/remigius42-ai/ansible-role-data_science_base)
+- [Ansible Data Science Toolkit](https://github.com/riethmayer/data-science-toolkit)
+
+### Platforms
 
 ### K3ai (keɪ3ai)
 
 K3ai is a lightweight infrastructure-in-a-box solution specifically built to
-install and configure AI tools and platforms in production evironments on Edge
+install and configure AI tools and platforms in production environments on Edge
 and IoT devices as easily as local test environments.
 
-https://github.com/kf5i/k3ai
-https://docs.k3ai.in/what-we-are-trying-to-solve-a.k.a-our-goals
+- [Github Page](https://github.com/kf5i/k3ai)
+- [Documentation](https://docs.k3ai.in/what-we-are-trying-to-solve-a.k.a-our-goals)
 
-### Jupyter
+### Databricks
 
-- [Docker Containers for Jupyter Notebooks](https://github.com/jupyter/docker-stacks)
+- [Home Page](https://databricks.com/)
+- [Federal Government Use Case](https://databricks.com/solutions/industries/federal-government)
 
-### nteract
+### Data Management and Search
 
-nteract is an open-source organization committed to creating fantastic
-interactive computing experiences that allow people to collaborate with ease.
-
-- [Homepage](https://nteract.io/)
-- [https://github.com/nteract/nteract](Github)
-
-### Elastic Stack
+#### Elastic Stack
 
 Elasticsearch is the distributed search and analytics engine at the heart of the
 Elastic Stack. Logstash and Beats facilitate collecting, aggregating, and
@@ -117,7 +150,9 @@ magic happens.
 - [What is Elastic Stack?](https://www.elastic.co/guide/en/elasticsearch/reference/current/elasticsearch-intro.html)
 - [Installing Elastic Stack with Docker](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html)
 
-### Vega
+### Data Visualization
+
+#### Vega
 
 Vega is a visualization grammar, a declarative language for creating, saving,
 and sharing interactive visualization designs. With Vega, you can describe the
@@ -128,44 +163,25 @@ and generate web-based views using Canvas or SVG.
 - [Demo of Vega](https://vega.github.io/editor/#/)
 - [Example Gallery](https://vega.github.io/vega/examples/)
 
-## Open Core Solutions
-
-### Databricks
-
-- [Home Page](https://databricks.com/)
-- [Federal Government Use Case](https://databricks.com/solutions/industries/federal-government)
-
-## Data Visualization
-
 ### Apache Preset
 
-An enterprise-ready analytics platform where data novices can learn and data professionals will thrive.
-
-https://preset.io/
-
-#### Install Apache Preset
-
-https://preset.io/blog/2020-05-11-getting-started-installing-superset/
-
-### Apache Superset
+*An enterprise-ready analytics platform where data novices can learn and data
+professionals will thrive.*
 
 Superset is fast, lightweight, intuitive, and loaded with options that make it
 easy for users of all skill sets to explore and visualize their data, from
 simple line charts to highly detailed geospatial charts.
 
-- [Home Page](https://superset.apache.org/)
+- [Homepage](https://preset.io/)
+- [Homepage](https://superset.apache.org/)
+- [Install Apache Preset](https://preset.io/blog/2020-05-11-getting-started-installing-superset/)
 - [Github Page](https://github.com/apache/incubator-superset)
-https://medium.com/airbnb-engineering/superset-scaling-data-access-and-visual-insights-at-airbnb-3ce3e9b88a7f
+- [Article](https://medium.com/airbnb-engineering/superset-scaling-data-access-and-visual-insights-at-airbnb-3ce3e9b88a7f)
 
 ### Metabase
 
-https://www.metabase.com/start/oss/
+- [Homepage](https://www.metabase.com/start/oss/)
 
-### Frictionless Data
-
-https://www.google.com/url?q=http://bit.ly/fdATO&sa=D&ust=1604076235975000&usg=AOvVaw3f7NIudeVlmUsxyZQKl9xv
-https://github.com/frictionlessdata/
-https://frictionlessdata.io/
 
 ### Open Knowledge Foundation
 
@@ -209,6 +225,8 @@ https://medium.com/@rrhoover/the-rise-of-no-code-e733d7c0944d
 https://lobe.ai/
 https://www.freshpaint.io/product/visual-editor
 
+## NLP Tools
+
 #### spaCy
 
 spaCy is designed to help you do real work — to build real products, or gather
@@ -223,14 +241,7 @@ https://prodi.gy
 ### Luna Lang / Enso
 
 https://github.com/enso-org/enso
-
 https://luna-lang.org/
-
-
-### CKAN
-
-https://github.com/keitaroinc/docker-ckan
-
 
 ### Text Cleaning
 
@@ -239,47 +250,21 @@ https://github.com/jbesomi/texthero
 https://github.com/chartbeat-labs/textacy
 
 
-
-# Open Knowledge Foundation
-
-
-## Useful Links
-
-- [Open Knowledge Foundation Canada](https://ca.okfn.org/)
-
-## Packages and Tools
-
-
-### Good Tables
-
-#### Homepage
-
-- [Good Tables](https://goodtables.io/)
-
-### Data Package Creator
-
-#### Homepage
-
-- [Frictionless Data Creator](https://create.frictionlessdata.io/) 
-
-#### Description
-
-Tool for making metadata for datasets?
-
-
-
 # Decision Process Automation
 
 http://learn-dmn-in-15-minutes.com/
 https://en.wikipedia.org/wiki/Decision_Model_and_Notation
 https://en.wikipedia.org/wiki/Predictive_Model_Markup_Language
 https://www.slideshare.net/MarlonDumas/ai-for-business-process-management?from_action=save
-
+https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32592
 https://www.redhat.com/en/technologies/jboss-middleware/process-automation-manager
-
+https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32603
 http://kie.org/
 https://kogito.kie.org/
 
 https://www.research.ibm.com/artificial-intelligence/trusted-ai/
 
+
 https://www.odoo.com/
+
+- [](https://github.com/doccano/doccano)
