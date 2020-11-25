@@ -239,14 +239,21 @@ spaCy as the Ruby on Rails of Natural Language Processing.
 
 https://spacy.io/
 
-https://prodi.gy
+#### Text Annotation
 
-### doccano
+These tools help you make a labeled data set for supervised learning.
+
+
+### Prodigy by spaCy
+
+- [Homepage](https://prodi.gy)
+
+### Doccano
 
 An open source alternative to Prodigy
 
-https://doccano.herokuapp.com/
-
+- [Github](https://github.com/doccano/doccano)
+- [Homepage](https://doccano.herokuapp.com/)
 
 ### Luna Lang / Enso
 
@@ -280,5 +287,3 @@ https://www.research.ibm.com/artificial-intelligence/trusted-ai/
 
 
 https://www.odoo.com/
-
-- [](https://github.com/doccano/doccano)
