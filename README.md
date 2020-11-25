@@ -1,76 +1,98 @@
-# Data Science Platform
+# Data Science Platform Resources
 
-**A starter kit for a data science platform.**
+<br>
 
-Includes links and descriptions for popular tools, services and resources every
-world-class data organization needs in order to manage their data and make data
-driven apps and services.
+<p align="center">
+  <img src="./img/platform.png">
 
-Establishing good data practices early in the organizational transformation is
-key. The FAIR data principles are an useful guide to follow.
+  <br>
 
-## FAIR Data and Data Management
+  A starter kit for a data science platform.
 
-![FAIR](./img/fair.jpg)
+</p>
 
-FAIR data are data which meet principles of findability, accessibility,
-interoperability, and re-usability.
+<br>
 
-- [Wikipedia](https://en.wikipedia.org/wiki/FAIR_data)
-- [Go FAIR](https://www.go-fair.org/fair-principles/)
-- [FAIR Data Principles](https://www.force11.org/group/fairgroup/fairprinciples)
+This is a collection of links and descriptions for popular and interesting tools, services and resources that every world-class data organization needs in order to manage their data and make data driven apps and services.
 
-### FAIR Data Management
+## Data Management
 
-#### Frictionless Data
+Establishing good data practices early in the organizational transformation is key.
 
-![Frictionless](./img/frictionless.png)
+The most important part of your data science platform will be the data and the way you manage it will make the difference between a useful data science platform and a frustrating one. FAIR data are data which meet principles of findability, accessibility, interoperability, and re-usability. For more information about FAIR data, please visit the following links:
 
-*The progressive data toolkit.*
+FAIR data are data which meet principles of **findability**, **accessibility**, **interoperability**, and **reusability**. A March 2016 publication by a consortium of scientists and organizations specified the "FAIR Guiding Principles for scientific data management and stewardship" in Scientific Data, using FAIR as an acronym and making the concept easier to discuss. From [Wikipedia](https://en.wikipedia.org/wiki/FAIR_data).
 
-Frictionless Data is a progressive, incrementally adoptable open-source toolkit
-that brings simplicity and gracefulness to the data experience - whether you're
-wrangling a CSV or engineering complex pipelines with gigabytes.
+In 2016, the ‘FAIR Guiding Principles for scientific data management and stewardship’ were published in Scientific Data. The authors intended to provide guidelines to improve the Findability, Accessibility, Interoperability, and Reuse of digital assets. The principles emphasise machine-actionability (i.e., the capacity of computational systems to find, access, interoperate, and reuse data with none or minimal human intervention) because humans increasingly rely on computational support to deal with data as a result of the increase in volume, complexity, and creation speed of data. From [Go FAIR](https://www.go-fair.org/fair-principles/).
 
-- [Homepage](https://frictionlessdata.io/) 
-- [Github](https://github.com/frictionlessdata) 
-  - [Python Module](https://github.com/frictionlessdata/frictionless-py)
-  - [How to use.](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
-- [Lecture on Frictionless Data](https://www.youtube.com/watch?v=EFQmudQP4io)
-- [Lecture Slides](https://www.google.com/url?q=http://bit.ly/fdATO&sa=D&ust=1604076235975000&usg=AOvVaw3f7NIudeVlmUsxyZQKl9xv)
+1. [CKAN](https://ckan.org/) is a powerful data management system that makes data accessible by providing tools to streamline publishing, sharing, finding and using data. You can see a [demo of CKAN](https://demo.ckan.org/).
 
-- [Good Tables](https://goodtables.io/)
-- [Frictionless Data Creator](https://create.frictionlessdata.io/) 
-https://frictionlessdata.io/guide/
+    More links:
+    
+    - [CKAN and The Government of Canada](https://ckan.org/team/government-of-canada/)
+    - [Install CKAN with Docker Compose](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html)
+    - [How to use Frictionless Data with CKAN](https://frictionlessdata.io/how-to/how-to-use-data-packages-with-ckan/)
+    - [Docker Container](https://github.com/keitaroinc/docker-ckan)
+    - [CKAN and Government of Canada](https://ckan.org/team/government-of-canada/)
+    - [CKAN Government of Canada Extension on Github](https://github.com/open-data/ckanext-canada)
+    - [CKAN API Documentation](https://docs.ckan.org/en/2.9/api/)
+    - [CKAN Documentation](https://docs.ckan.org/en/latest/contents.html#)
 
-#### CKAN
+2. [Frictionless](https://frictionlessdata.io/) is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
 
-![CKAN](./img/ckan.png)
+    More links:
+    
+    - [Github](https://github.com/frictionlessdata) 
+        - [Python Module](https://github.com/frictionlessdata/frictionless-py)
+        - [How to use.](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
+    - [Lecture on Frictionless Data](https://www.youtube.com/watch?v=EFQmudQP4io)
+    - [Lecture Slides](https://www.google.com/url?q=http://bit.ly/fdATO&sa=D&ust=1604076235975000&usg=AOvVaw3f7NIudeVlmUsxyZQKl9xv)
+    - [Good Tables](https://goodtables.io/)
+    - [Frictionless Data Creator](https://create.frictionlessdata.io/) 
+    - [Guide to Frictionless](https://frictionlessdata.io/guide/)
 
-*CKAN, the world’s leading Open Source data portal platform.*
+## Data Platform Engineering
 
-CKAN is a powerful data management system that makes data accessible – by
-providing tools to streamline publishing, sharing, finding and using data.
+The data science platform will rest on some kind of compute platform. I'm not an expert at this level but here are some promising projects on which you can host your platform.
 
-- [CKAN and The Government of Canada](https://ckan.org/team/government-of-canada/)
-- [Demo of CKAN](https://demo.ckan.org/)
-- [Install CKAN with Docker Compose](https://docs.ckan.org/en/2.9/maintaining/installing/install-from-docker-compose.html)
-- [How to use Frictionless Data with CKAN](https://frictionlessdata.io/how-to/how-to-use-data-packages-with-ckan/)
-- [Docker Container](https://github.com/keitaroinc/docker-ckan)
-- [CKAN and Government of Canada](https://ckan.org/team/government-of-canada/)
-- [CKAN Government of Canada Extension on Github](https://github.com/open-data/ckanext-canada)
-- [CKAN API Documentation](https://docs.ckan.org/en/2.9/api/)
-- [CKAN Documentation](https://docs.ckan.org/en/latest/contents.html#)
+1. [K3ai](https://docs.k3ai.in/) is a lightweight “infrastructure in a box” designed specifically to install and configure AI tools and platforms on portable hardware, such as laptops and edge devices. This enables users to perform quick experimentations with Kubeflow on a local cluster.
 
-## Graphical Interfaces for ML Apps
+1. [MLflow](https://mlflow.org/) is an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry. MLflow currently offers four components:
 
-### Streamlit
+    - [MLflow Tracking](https://mlflow.org/docs/latest/tracking.html): Record and query experiments: code, data, config, and results.
+    - [MLflow Projects](https://mlflow.org/docs/latest/projects.html): Package data science code in a format to reproduce runs on any platform.
+    - [MLflow Models](https://mlflow.org/docs/latest/models.html): Deploy machine learning models in diverse serving environments.
+    - [Model Registry](https://mlflow.org/docs/latest/model-registry.html): Store, annotate, discover, and manage models in a central repository.
 
-The fastest way to build and share data apps. Turn data scripts into shareable
-web apps in minutes. All in Python. All for free. No front-end experience
-required.
+1. [Ansible](https://www.ansible.com/) is an open-source software provisioning, configuration management, and
+application-deployment tool enabling infrastructure as code. It runs on many
+Unix-like systems, and can configure both Unix-like systems as well as Microsoft
+Windows. It includes its own declarative language to describe system
+configuration.
+  
+    I've found some example Ansible roles for data science:
 
-- [Homepage](https://www.streamlit.io/)
+    - [Ansible Role for Data Science](https://github.com/govcloud/ansible-role-data-science)
+    - [Ansible Role for Data Science](https://github.com/remigius42-ai/ansible-role-data_science_base)
+    - [Ansible Data Science Toolkit](https://github.com/riethmayer/data-science-toolkit)
+
+## Data Science and Machine Learning
+
+### NLP
+
+1. [spaCy](https://spacy.io/) is designed to help you do real work — to build real products, or gather
+real insights. The library respects your time, and tries to avoid wasting it.
+It's easy to install, and its API is simple and productive. We like to think of
+spaCy as the Ruby on Rails of Natural Language Processing. 
+
+1. [Doccano](https://doccano.herokuapp.com/) is an open source text annotation tool for humans. It provides annotation features for text classification, sequence labeling and sequence to sequence tasks. So, you can create labeled data for sentiment analysis, named entity recognition, text summarization and so on. Just create a project, upload data and start annotating. **You can build a dataset in hours.**
+
+## Data Analysis and Business Intelligence
+
+1. [jamovi](https://www.jamovi.org/) is a new “3rd generation” statistical spreadsheet. designed from the ground up to be easy to use, jamovi is a compelling alternative to costly statistical products such as SPSS and SAS. **jamovi is built on top of the R statistical language, giving you access to the best the statistics community has to offer.** Try jamovi in the [cloud](https://cloud.jamovi.org/).
+
+1. [nteract](https://nteract.io/) is an interactive computing experiences that allow people to collaborate with ease. The nteract ecosystem provides a wide variety of notebook-based applications for your scenario. Whether you want to edit notebooks in a desktop app or in your favorite editor, nteract provides you the tools you need to leverage the full power of interactive notebooks. 
+   
 
 ## Data Science and ML Development Environments
 
@@ -80,19 +102,7 @@ required.
 - [Jupyter Notebooks from StatCan](https://github.com/govcloud/jupyter-notebooks)
 - [Docker Containers for Jupyter Notebooks](https://github.com/jupyter/docker-stacks)
 
-### nteract
 
-![nteract](./img/nteract.png)
-
-*Interactive computing experiences that allow people to collaborate with ease.*
-
-The nteract ecosystem provides a wide variety of notebook-based applications for
-your scenario. Whether you want to edit notebooks in a desktop app or in your
-favorite editor, nteract provides you the tools you need to leverage the full
-power of interactive notebooks.
-
-- [Homepage](https://nteract.io/)
-- [https://github.com/nteract/nteract](Github)
 
 ### Datasette
 
@@ -106,35 +116,7 @@ provide continuous delivery with high software quality. DevOps is complementary
 with Agile software development; several DevOps aspects came from Agile
 methodology.
 
-### Ansible
 
-![Ansible](./img/ansible.png)
-
-Ansible is an open-source software provisioning, configuration management, and
-application-deployment tool enabling infrastructure as code. It runs on many
-Unix-like systems, and can configure both Unix-like systems as well as Microsoft
-Windows. It includes its own declarative language to describe system
-configuration.
-
-- [Ansible Role for Data Science](https://github.com/govcloud/ansible-role-data-science)
-- [Ansible Role for Data Science](https://github.com/remigius42-ai/ansible-role-data_science_base)
-- [Ansible Data Science Toolkit](https://github.com/riethmayer/data-science-toolkit)
-
-### Platforms
-
-### K3ai (keɪ3ai)
-
-K3ai is a lightweight infrastructure-in-a-box solution specifically built to
-install and configure AI tools and platforms in production environments on Edge
-and IoT devices as easily as local test environments.
-
-- [Github Page](https://github.com/kf5i/k3ai)
-- [Documentation](https://docs.k3ai.in/what-we-are-trying-to-solve-a.k.a-our-goals)
-
-### Databricks
-
-- [Home Page](https://databricks.com/)
-- [Federal Government Use Case](https://databricks.com/solutions/industries/federal-government)
 
 ### Data Management and Search
 
@@ -151,6 +133,14 @@ magic happens.
 - [Installing Elastic Stack with Docker](https://www.elastic.co/guide/en/elastic-stack-get-started/current/get-started-docker.html)
 
 ### Data Visualization
+
+### Streamlit
+
+The fastest way to build and share data apps. Turn data scripts into shareable
+web apps in minutes. All in Python. All for free. No front-end experience
+required.
+
+- [Homepage](https://www.streamlit.io/)
 
 #### Vega
 
@@ -187,13 +177,7 @@ simple line charts to highly detailed geospatial charts.
 
 https://okfn.org/what-we-do/training/
 
-## Data Analysis
 
-https://www.jamovi.org/
-
-## Machine Learning
-
-https://mlflow.org/
 
 # Project/Organization Management
 
@@ -228,32 +212,6 @@ https://lobe.ai/  (Currently only supports image classification)
 
 https://www.freshpaint.io/product/visual-editor
 
-## NLP Tools
-
-#### spaCy
-
-spaCy is designed to help you do real work — to build real products, or gather
-real insights. The library respects your time, and tries to avoid wasting it.
-It's easy to install, and its API is simple and productive. We like to think of
-spaCy as the Ruby on Rails of Natural Language Processing. 
-
-https://spacy.io/
-
-#### Text Annotation
-
-These tools help you make a labeled data set for supervised learning.
-
-
-### Prodigy by spaCy
-
-- [Homepage](https://prodi.gy)
-
-### Doccano
-
-An open source alternative to Prodigy
-
-- [Github](https://github.com/doccano/doccano)
-- [Homepage](https://doccano.herokuapp.com/)
 
 ### Luna Lang / Enso
 
@@ -263,12 +221,6 @@ but you can try it to see how Enso would look in the future.
 
 https://github.com/enso-org/enso
 https://luna-lang.org/
-
-### Text Cleaning
-
-https://github.com/jfilter/clean-text
-https://github.com/jbesomi/texthero
-https://github.com/chartbeat-labs/textacy
 
 
 # Decision Process Automation
