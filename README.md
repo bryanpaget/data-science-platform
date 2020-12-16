@@ -76,6 +76,8 @@ configuration.
     - [Ansible Role for Data Science](https://github.com/remigius42-ai/ansible-role-data_science_base)
     - [Ansible Data Science Toolkit](https://github.com/riethmayer/data-science-toolkit)
 
+1. [Open Data Hub](https://opendatahub.io/) is a blueprint for building an AI as a service platform on Red Hat's Kubernetes-based OpenShift Container Platform and Ceph Object Storage. It inherits from upstream efforts such as Kafka/Strimzi and Kubeflow, and is the foundation for Red Hat's internal data science and AI platform. Data scientists can create models using Jupyter notebooks, and select from popular tools such as TensorFlow, scikit-learn, Apache Spark and more for developing models. Teams can spend more time solving critical business needs and less on installing and maintaining infrastructure with the Open Data Hub. 
+
 ## Data Science and Machine Learning
 
 ### NLP
