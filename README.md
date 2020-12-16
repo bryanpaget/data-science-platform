@@ -241,3 +241,8 @@ https://www.research.ibm.com/artificial-intelligence/trusted-ai/
 
 
 https://www.odoo.com/
+
+
+# Kubernetes Related Resources
+
+https://helm.sh/docs/topics/charts/
